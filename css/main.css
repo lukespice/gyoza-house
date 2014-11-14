@@ -131,6 +131,29 @@ input{
     font-size: 1.5em;
 }
 
+.social-links{
+    margin: 0 auto;
+    width: 120px;
+}
+.social-link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.social-link:hover{
+    opacity: 0.7;
+}
+.facebook{
+    background: url('../img/facebook.svg') no-repeat;;
+}
+.twitter{
+    background: url('../img/twitter.svg') no-repeat;;
+}
+.email{
+    background: url('../img/email.svg') no-repeat;;
+}
+
 
 /* ==========================================================================
    Helper classes
